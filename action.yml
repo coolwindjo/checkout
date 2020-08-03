@@ -1,3 +1,8 @@
+name: RunDocs checkout
+description: Build documents with gem github-pages and test rendered HTML files to make sure they're accurate
+branding:
+  icon: check-circle
+  color: green
 runs:
   using: docker
   image: docker://rundocs/checkout:latest
