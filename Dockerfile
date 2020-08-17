@@ -1,7 +1,7 @@
 FROM ruby:alpine
 
 RUN apk add --no-cache --virtual deps build-base ruby-dev libc-dev linux-headers
-RUN apk add --no-cache libcurl
+RUN apk add --no-cache git libcurl
 
 RUN gem install github-pages html-proofer
 
